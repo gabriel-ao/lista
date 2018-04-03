@@ -12,7 +12,7 @@ namespace CalculadoraForm
          public double y { get; private set; }
          private double  resultado;
         
-        public void ReceberDados(double valor1, double valor2)
+        public Operacoes(double valor1, double valor2)
         {
             this.x = valor1;
             this.y = valor2;
