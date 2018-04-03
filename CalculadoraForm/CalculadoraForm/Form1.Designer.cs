@@ -36,6 +36,7 @@
             this.labelResultado = new System.Windows.Forms.Label();
             this.buttonSair = new System.Windows.Forms.Button();
             this.buttonLimparCampos = new System.Windows.Forms.Button();
+            this.buttonPotencia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSoma
@@ -110,10 +111,18 @@
             this.buttonLimparCampos.UseVisualStyleBackColor = true;
             this.buttonLimparCampos.Click += new System.EventHandler(this.buttonLimparCampos_Click);
             // 
+            // buttonPotencia
+            // 
+            resources.ApplyResources(this.buttonPotencia, "buttonPotencia");
+            this.buttonPotencia.Name = "buttonPotencia";
+            this.buttonPotencia.UseVisualStyleBackColor = true;
+            this.buttonPotencia.Click += new System.EventHandler(this.buttonPotencia_Click);
+            // 
             // Form_Calculadora
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonPotencia);
             this.Controls.Add(this.buttonLimparCampos);
             this.Controls.Add(this.buttonSair);
             this.Controls.Add(this.labelResultado);
@@ -146,6 +155,7 @@
         private System.Windows.Forms.Label labelResultado;
         private System.Windows.Forms.Button buttonSair;
         private System.Windows.Forms.Button buttonLimparCampos;
+        private System.Windows.Forms.Button buttonPotencia;
     }
 }
 

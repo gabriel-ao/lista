@@ -42,5 +42,16 @@ namespace CalculadoraForm
             this.resultado = (x - y);
             return this.resultado;
         }
+
+        public int setPotenciacao() {
+            // x é o numero multiplicado
+            // y é o quantidade de vezes multiplicada
+            double aux = x;
+            for (int i = 1; i < y; i++) {
+                aux = aux * x;
+            }
+
+            return Convert.ToInt32(aux);
+        }
     }
 }

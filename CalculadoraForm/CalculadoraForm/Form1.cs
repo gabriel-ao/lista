@@ -47,6 +47,14 @@ namespace CalculadoraForm {
             textBoxResultado.Clear();
         }
 
+        private void buttonPotencia_Click(object sender, EventArgs e) {
+            x = Convert.ToDouble(textBoxValor1.Text);
+            y = Convert.ToDouble(textBoxValor2.Text);
+            calcular = new Operacoes(x, y);
+            resultado = calcular.setPotenciacao();
+            textBoxResultado.Text = (Convert.ToString(resultado));
+        }
+
         private void ButtonDivisao_Click(object sender, EventArgs e) {
             x = Convert.ToDouble(textBoxValor1.Text);
             y = Convert.ToDouble(textBoxValor2.Text);
