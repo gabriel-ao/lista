@@ -63,6 +63,11 @@ namespace CalculadoraForm {
             textBoxResultado.Text = (Convert.ToString(resultado));
         }
 
+        private void buttonBhakara_Click(object sender, EventArgs e) {
+            Bhaskara bhask = new Bhaskara();
+            bhask.Show();
+        }
+
 
         private void buttonSair_Click(object sender, EventArgs e) {
             Application.Exit();

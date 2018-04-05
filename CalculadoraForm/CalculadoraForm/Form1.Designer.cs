@@ -37,6 +37,7 @@
             this.buttonSair = new System.Windows.Forms.Button();
             this.buttonLimparCampos = new System.Windows.Forms.Button();
             this.buttonPotencia = new System.Windows.Forms.Button();
+            this.buttonBhakara = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSoma
@@ -118,10 +119,18 @@
             this.buttonPotencia.UseVisualStyleBackColor = true;
             this.buttonPotencia.Click += new System.EventHandler(this.buttonPotencia_Click);
             // 
+            // buttonBhakara
+            // 
+            resources.ApplyResources(this.buttonBhakara, "buttonBhakara");
+            this.buttonBhakara.Name = "buttonBhakara";
+            this.buttonBhakara.UseVisualStyleBackColor = true;
+            this.buttonBhakara.Click += new System.EventHandler(this.buttonBhakara_Click);
+            // 
             // Form_Calculadora
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonBhakara);
             this.Controls.Add(this.buttonPotencia);
             this.Controls.Add(this.buttonLimparCampos);
             this.Controls.Add(this.buttonSair);
@@ -156,6 +165,7 @@
         private System.Windows.Forms.Button buttonSair;
         private System.Windows.Forms.Button buttonLimparCampos;
         private System.Windows.Forms.Button buttonPotencia;
+        private System.Windows.Forms.Button buttonBhakara;
     }
 }
 

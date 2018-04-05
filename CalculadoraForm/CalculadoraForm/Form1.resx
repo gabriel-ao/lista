@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSoma.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="buttonSubtracao.Location" type="System.Drawing.Point, System.Drawing">
     <value>185, 51</value>
@@ -165,7 +165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSubtracao.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="buttonMultiplicacao.Location" type="System.Drawing.Point, System.Drawing">
     <value>185, 83</value>
@@ -189,7 +189,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonMultiplicacao.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="ButtonDivisao.Location" type="System.Drawing.Point, System.Drawing">
     <value>185, 112</value>
@@ -213,7 +213,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ButtonDivisao.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -240,7 +240,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -267,7 +267,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="textBoxValor1.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 22</value>
@@ -288,7 +288,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxValor1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="textBoxValor2.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 51</value>
@@ -309,7 +309,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxValor2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="textBoxResultado.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 83</value>
@@ -330,7 +330,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxResultado.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="labelResultado.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 86</value>
@@ -354,7 +354,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelResultado.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonSair.Location" type="System.Drawing.Point, System.Drawing">
     <value>131, 112</value>
@@ -378,7 +378,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonSair.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="buttonLimparCampos.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 112</value>
@@ -402,7 +402,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonLimparCampos.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="buttonPotencia.Location" type="System.Drawing.Point, System.Drawing">
     <value>185, 141</value>
@@ -426,6 +426,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonPotencia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonBhakara.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 170</value>
+  </data>
+  <data name="buttonBhakara.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="buttonBhakara.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="buttonBhakara.Text" xml:space="preserve">
+    <value>Bhaskara</value>
+  </data>
+  <data name="&gt;&gt;buttonBhakara.Name" xml:space="preserve">
+    <value>buttonBhakara</value>
+  </data>
+  <data name="&gt;&gt;buttonBhakara.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonBhakara.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonBhakara.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
